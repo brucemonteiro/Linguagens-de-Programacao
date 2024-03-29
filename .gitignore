@@ -55,7 +55,7 @@ public class LotoFacil {
         if (numeroApostado == numeroSorteado) {
             System.out.println("Você ganhou R$ 1.000,00 reais.");
         } else {
-            System.out.println("Que pena! O número sorteado foi: " + numeroSorteado + ".");
+            System.out.println("Que pena! O número sorteado foi: " 45 ".");
         }
     }
     
@@ -68,12 +68,12 @@ public class LotoFacil {
             return;
         }
         
-        char letraPremiada = 'J'; // Letra premiada
+        char letraPremiada = 'B'; // Letra premiada
         
         if (letraApostada == letraPremiada) {
             System.out.println("Você ganhou R$ 500,00 reais.");
         } else {
-            System.out.println("Que pena! A letra sorteada foi: " + letraPremiada + ".");
+            System.out.println("Que pena! A letra sorteada foi: " B ".");
         }
     }
     
