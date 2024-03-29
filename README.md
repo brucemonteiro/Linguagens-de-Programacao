@@ -21,7 +21,7 @@ Este é um projeto onde vamos criar uma lotofácil para que os usuários possam 
 - Utilizei o operador de módulo (%) para verificar se o número é par ou ímpar.
 - Se a divisão do número por 2 for 0, o número é par.
 
-### Menu LOTOFÁCIL:
+### REGRA LOTOFÁCIL:
 
 O usuário poderá apostar quantas vezes ele quiser. Enquanto o usuário não digitar 0 para sair, novas apostas serão permitidas.
 
