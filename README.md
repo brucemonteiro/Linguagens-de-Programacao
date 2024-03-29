@@ -17,31 +17,32 @@ Este é um projeto onde vamos criar uma lotofácil para que os usuários possam 
 
 ### Regras para a aposta de número par ou ímpar:
 
-- Utiliza-se o `Scanner` para ler um número inteiro via teclado.
-- Utiliza-se o operador de módulo (%) para verificar se o número é par ou ímpar.
-  - Se o resto da divisão do número por 2 for 0, o número é par.
-- Se o número digitado for par, imprime-se "Você ganhou R$ 100,00 reais.". Caso contrário, imprime-se "Que pena! O número digitado é ímpar e a premiação foi para números pares.".
+- Utilizei a biblioteca  `Scanner` para ler um número inteiro escolhido pelo apostador.
+- Utilizei o operador de módulo (%) para verificar se o número é par ou ímpar.
+- Se a divisão do número por 2 for 0, o número é par.
 
 ### Menu LOTOFÁCIL:
 
-O sistema apresenta um menu interativo para o usuário realizar suas apostas. Enquanto o usuário não digitar 0 para sair, novas apostas serão permitidas.
+O usuário poderá apostar quantas vezes ele quiser. Enquanto o usuário não digitar 0 para sair, novas apostas serão permitidas.
 
 
 
 ## Como rodar o projeto
 
-1. Certifique-se de ter o JDK (Java Development Kit) instalado em sua máquina.
+1. Certifique-se de ter o JDK instalado em sua máquina.
 
-2. Clone este repositório.
+2. Siga as instruções do código.
 
-3. Navegue até o diretório do projeto.
+3. Vá até o diretório do projeto.
 
 4. Compile o código-fonte.
 
 5. Execute o programa.
 
-6. Siga as instruções exibidas no terminal para fazer suas apostas na LOTOFÁCIL.
+6. Siga as instruções para fazer suas apostas na LOTOFÁCIL.
 
-7. Divirta-se!
 
-Este projeto foi desenvolvido utilizando a versão do JDK 8 e não requer bibliotecas externas além das fornecidas pelo próprio Java.
+Este projeto foi desenvolvido utilizando a versão do JDK 8.
+Bibliotecas usadas: Scanner,Random. Métodos usados: System.in.read(),Character.toUpperCase().
+
+SUPORTE UTILIZADO NO TRABALHO: Chatgpt e Github/lucas-novaesm
