@@ -4,18 +4,16 @@ Este é um projeto onde vamos criar uma lotofácil para que os usuários possam 
 
 ### Regras para a aposta de 0 a 100:
 
-- Utilizei a biblioteca `Scanner`, o usuário deve digitar um número inteiro de 0 a 100 via teclado. Caso o número seja maior que 100 ou menor que 0, uma mensagem de "Aposta inválida." é exibida.
-- Utiliza-se a biblioteca `Random` para sortear aleatoriamente um número de 0 a 100.
-- Compara-se o número escolhido pelo usuário com o número sorteado pelo sistema.
-  - Se o usuário acertar a aposta, imprime-se "Você ganhou R$ 1.000,00 reais.". Caso contrário, imprime-se "Que pena! O número sorteado foi: X.".
+- Utilizei a biblioteca `Scanner`, para que o programa leia se o número escolhido está entre 0 e 100, e caso não esteja, seja imprida a mensagem de aposta inválida.
+- Utilizei a biblioteca `Random` para ser sorteado um número de 0 a 100.
+- Feito isso, o programa vai comparar o número escolhido pelo apostador e o número do sistema.
 
 ### Regras para a aposta de A à Z:
 
-- Utiliza-se o método `System.in.read()` para ler um caractere de A à Z via teclado, podendo ser lido como maiúsculo ou minúsculo. Caso não seja uma letra, exibe-se a mensagem "Aposta inválida.". Utiliza-se o método `Character.isLetter()` para verificar se a entrada digitada é uma letra válida.
-- Converte-se a entrada do usuário para maiúsculo utilizando `Character.toUpperCase()`.
-- Escolhe-se uma letra inicial para ser a letra premiada.
-- Compara-se a letra lida com a letra premiada.
-  - Se o usuário acertar a aposta, imprime-se "Você ganhou R$ 500,00 reais.". Caso contrário, imprime-se "Que pena! A letra sorteada foi: X.".
+- Utilizei o método `System.in.read()` para ler um caractere de A à Z , sendo ele maiúsculo ou minúsculo. Se não for uma letra, a aposta será inválida. Utilizei o método `Character.isLetter()` para ver se a entrada digitada é uma letra válida.
+- A aposta do usuário será covertida para maiúscula pelo `Character.toUpperCase()`.
+- Feito isso, o programa vai comparar a letra escolhida com a letra do sistema, que será a inicial do meu nome (B).
+
 
 ### Regras para a aposta de número par ou ímpar:
 
