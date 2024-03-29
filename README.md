@@ -1,4 +1,49 @@
-                                              # LOTOFÁCIL EM JAVA
-                                          
+# LOTOFÁCIL em Java
 
- • Esse é um projeto onde vamos implementar uma loteria lotofácil usando Java. Vamos gerar jogos aleatórios, para que jogadores façam apostas e possam obter prêmios. O esquema de aposta, será dividido em 3 partes: Aposta de 1 a 100, aposta de A à Z e aposta em par ou ímpar. O jogador que sair vitorioso, terá uma recompensa em dinheiro.
+Este é um projeto onde vamos criar uma lotofácil para que os usuários possam realizar apostas e consecutivamente receber prêmios por elas. Essa lotofácil será dividida em três etapas: apostas de 1 a 100, apostas de A à Z e apostas entre par ou ímpar.
+
+### Regras para a aposta de 0 a 100:
+
+- Utilizei a biblioteca `Scanner`, o usuário deve digitar um número inteiro de 0 a 100 via teclado. Caso o número seja maior que 100 ou menor que 0, uma mensagem de "Aposta inválida." é exibida.
+- Utiliza-se a biblioteca `Random` para sortear aleatoriamente um número de 0 a 100.
+- Compara-se o número escolhido pelo usuário com o número sorteado pelo sistema.
+  - Se o usuário acertar a aposta, imprime-se "Você ganhou R$ 1.000,00 reais.". Caso contrário, imprime-se "Que pena! O número sorteado foi: X.".
+
+### Regras para a aposta de A à Z:
+
+- Utiliza-se o método `System.in.read()` para ler um caractere de A à Z via teclado, podendo ser lido como maiúsculo ou minúsculo. Caso não seja uma letra, exibe-se a mensagem "Aposta inválida.". Utiliza-se o método `Character.isLetter()` para verificar se a entrada digitada é uma letra válida.
+- Converte-se a entrada do usuário para maiúsculo utilizando `Character.toUpperCase()`.
+- Escolhe-se uma letra inicial para ser a letra premiada.
+- Compara-se a letra lida com a letra premiada.
+  - Se o usuário acertar a aposta, imprime-se "Você ganhou R$ 500,00 reais.". Caso contrário, imprime-se "Que pena! A letra sorteada foi: X.".
+
+### Regras para a aposta de número par ou ímpar:
+
+- Utiliza-se o `Scanner` para ler um número inteiro via teclado.
+- Utiliza-se o operador de módulo (%) para verificar se o número é par ou ímpar.
+  - Se o resto da divisão do número por 2 for 0, o número é par.
+- Se o número digitado for par, imprime-se "Você ganhou R$ 100,00 reais.". Caso contrário, imprime-se "Que pena! O número digitado é ímpar e a premiação foi para números pares.".
+
+### Menu LOTOFÁCIL:
+
+O sistema apresenta um menu interativo para o usuário realizar suas apostas. Enquanto o usuário não digitar 0 para sair, novas apostas serão permitidas.
+
+
+
+## Como rodar o projeto
+
+1. Certifique-se de ter o JDK (Java Development Kit) instalado em sua máquina.
+
+2. Clone este repositório.
+
+3. Navegue até o diretório do projeto.
+
+4. Compile o código-fonte.
+
+5. Execute o programa.
+
+6. Siga as instruções exibidas no terminal para fazer suas apostas na LOTOFÁCIL.
+
+7. Divirta-se!
+
+Este projeto foi desenvolvido utilizando a versão do JDK 8 e não requer bibliotecas externas além das fornecidas pelo próprio Java.
