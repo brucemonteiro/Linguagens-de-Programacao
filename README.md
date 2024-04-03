@@ -42,7 +42,31 @@ O usuário poderá apostar quantas vezes ele quiser. Enquanto o usuário não di
 6. Siga as instruções para fazer suas apostas na LOTOFÁCIL.
 
 
-Este projeto foi desenvolvido utilizando a versão do JDK 8.
+Este projeto foi desenvolvido utilizando a versão do JDK 21.
 Bibliotecas usadas: Scanner,Random. Métodos usados: System.in.read(),Character.toUpperCase().
 
 SUPORTE UTILIZADO NO TRABALHO: Chatgpt e Github/lucas-novaesm
+
+
+# Rodando o projeto
+
+
+![Imagem do WhatsApp de 2024-04-03 à(s) 14 00 58_3eab45a2](https://github.com/brucemonteiro/Linguagens-de-Programacao/assets/163943761/18c23914-780e-44ae-a30f-0ed7147d20de)
+
+![Imagem do WhatsApp de 2024-04-03 à(s) 14 00 58_5f311795](https://github.com/brucemonteiro/Linguagens-de-Programacao/assets/163943761/4a3c1f35-3fe9-4864-a33f-b196044a33a4)
+
+![Imagem do WhatsApp de 2024-04-03 à(s) 14 00 58_5f311795](https://github.com/brucemonteiro/Linguagens-de-Programacao/assets/163943761/747aaac6-0cce-4e7c-8365-25d73f4ab014)
+
+![Imagem do WhatsApp de 2024-04-03 à(s) 14 00 58_5f311795](https://github.com/brucemonteiro/Linguagens-de-Programacao/assets/163943761/21cede9f-a719-43e9-926e-26dc37180f4c)
+
+
+
+
+
+
+
+
+
+
+
+
